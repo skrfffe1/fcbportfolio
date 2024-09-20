@@ -1,11 +1,17 @@
 import Navbar from '../../components/navbar';
-import MenuCard from '../../components/menucard';
-
+import Background from '../../components/menubg';
+import MenuTable from '../../components/menutable';
+import Footer from '../../components/footer';
 export default function Page() {
-    return (    
-        <> 
+    return (
+        <>
             <Navbar />
-            <MenuCard />
+
+            <Background />
+            
+            <MenuTable />
+
+            <Footer />
         </>
     );
 }
